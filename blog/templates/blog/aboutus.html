@@ -1,0 +1,28 @@
+{% extends 'blog/layout.html'%}
+
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'blog/css/aboutus.css' %}">   
+{% endblock %}
+
+{% block body %}
+
+
+<!-- About Us Start -->
+
+<div id="about-us-div" >
+<h1 id="aboutus-title">ART+</h1>
+<h4>What is ART+ ?</h4>
+<br>
+<h5>ART+ is a platform where you can follow current developments in the art world.</h5>
+<h5>We want to bring you both current and creative contents.</h5>
+
+<p id="p-2">Articles published on ART+ will only stay on the platform for two weeks.</p>
+<p id="p-3">If you want to access content after two weeks, you must like the content.</p>
+</div>
+<!-- About Us End -->
+
+{% load static %}
+<script src="{% static 'blog/js/aboutus.js'%}"></script>
+{% endblock %}
